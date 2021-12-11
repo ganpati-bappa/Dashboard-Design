@@ -1,0 +1,25 @@
+.SkillBox_container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 2px;
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+
+    .SkillBox_profile_pic {
+        margin: 10px;
+
+        img {
+            display: inline-block;
+            border-radius: 50%;
+            width: 65px;
+        }
+    }
+
+    .SkillBox_users_name {
+        font-size: 12px;
+    }
+
+
+}

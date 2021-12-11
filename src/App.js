@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+// SCSS
+import './SCSS/default.scss'
+import './SCSS/App.scss'
 
-function App() {
+// Components
+import { Navbar } from './Components/Navbar.js'
+import { Header } from './Components/header.js'
+import { TopSkills } from './Components/Top_skills'
+import { UserActivityChart } from './Components/UserActivityChart.js'
+import { RecentPost } from './Components/RecentPosts.js'
+
+export const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+      <Header> </Header>
+      <div className = "App_main">  
+        <div className = "App_main_top">          
+          <TopSkills></TopSkills>
+        </div>
+        
+        <div className = "App_user_info">
+
+          <div className = "User_Graph">          
+            <UserActivityChart></UserActivityChart>
+          </div>
+
+          <div className = "RecentPosts">
+              <RecentPost></RecentPost>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

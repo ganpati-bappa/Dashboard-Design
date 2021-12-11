@@ -1,0 +1,46 @@
+$left-width: 4vw;
+
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    .App_main {
+        display: flex;
+        flex-direction: column;
+        
+        .App_main_top {
+            width: 90vw - $left-width;
+        }
+
+        .App_user_info {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            top: 120px;
+            left: 4vw;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .App_user_info {
+        width: 90vw - $left-width;
+    }
+
+    .User_Graph {
+        flex-basis: 70%;
+    }
+
+    .RecentPosts {
+        flex-basis: 28%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .App_user_info {
+        width: 90%;
+        flex-direction: column;
+        overflow: auto hidden;
+    }
+}

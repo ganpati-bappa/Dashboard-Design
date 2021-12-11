@@ -1,0 +1,73 @@
+.PostsBox_container {
+    display: flex;
+    height: 70px;
+    margin-bottom: 5px;
+    max-width: 400px;
+    
+    .PostBox_image {
+        display: flex;
+        flex-basis: 20%;
+
+        img {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            border-radius: 5px;
+        }
+    }
+
+    .PostBox_tags {
+        display: flex;
+        list-style-type: none;
+        padding: 0px;
+
+        .PostBox_tag {
+            margin: 1px;
+            padding: 3px;
+            border: 0.2px solid rgba(250,250,250,0.1); 
+            box-shadow: 2px 2px 2px 2px rgba(20,20,20,0.4);
+        }
+    }
+
+    .PostBox_description {
+        font-size: 14px;
+        padding: 10px;
+        color: #fefe;
+        font-style: italic;
+
+        .PostBox_heading {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .PostBox_likes {
+            margin-top: 2px;
+
+            :first-child {
+                color: red;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .red {
+        background: #FF652F;
+    }
+
+    .yellow {
+        background: #116466;
+    }
+
+    .green {
+        background: #14A76C;
+    }
+
+    .crimson {
+        background: #C3073F;
+    }
+
+    .blue {
+        background: #3500D3;
+    }
+}

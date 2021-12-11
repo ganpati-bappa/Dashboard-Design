@@ -1,0 +1,85 @@
+.Header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    height: 70px;
+    top: 0px;
+    width: 100vw;
+
+    .Header_heading {
+        padding-left: 20px;
+        color: #feef;
+    }
+
+    .Header_search_bar {
+        position: relative;
+        color: rgba(255,255,255,0.85);
+        top: -12px;
+
+        .Header_search_icon {
+            font-size: 15px;
+            position: relative;
+            top: 24px;
+            left: 10px;
+        }
+
+        .Searchbar_container {
+            border: none;
+            outline: none;
+            height: 30px;
+            background: #222629;
+            border-radius: 5px;
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+            color: rgba(255,255,255,0.85);
+            padding-left: 35px;
+        }
+    }
+
+    .Header_user_info {
+        position: relative;
+        padding-right: 20px;
+        cursor: pointer;
+
+        img {
+            display: inline-block;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+
+    }
+}
+@media screen and (min-width: 769px) {
+    .Searchbar_container {
+        width: 350px;
+    }
+
+}
+
+
+@media screen and (max-width: 769px) and (min-width: 469px) {
+    .Searchbar_container {
+        left: 10p;
+        width: 220px;
+    }
+
+}
+
+@media screen and (max-width: 468px) {
+
+    .Header_search_bar {
+        position: relative;
+
+        .Searchbar_container {
+            border: none;
+            outline: none;
+            background: #222629;
+            border-radius: 5px;
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+            color: rgba(255,255,255,0.85);
+            padding: 10px;
+            width: 120px;
+        }
+    }
+}

@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Dashboard Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ This is a simple, react one-page UI of a user dashboard for any social networking website. The data used are fetched from random Dummy rest api's mainly from https://dummyapi.io/
+ 
+<h2 class="code-line" data-line-start=34 data-line-end=35 ><a id="Installation_34"></a>Deployed App</h2>
+<p class="has-line-data" data-line-start="18" data-line-end="19">The React App is deployed on Heroku, which is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.</p>
+https://dashboard-design.herokuapp.com/
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2 class="code-line" data-line-start=34 data-line-end=35 ><a id="Installation_34"></a>Installation for local server</h2>
 
-### `npm start`
+<h4 class="code-line" data-line-start=57 data-line-end=58 ><a id="Web_App_57"></a>In order to start the React Server</h4>
+<p class="has-line-data" data-line-start="58" data-line-end="60">It requires <a href="https://reactjs.org/">React.js</a> v16+ to run.<br>
+Install all the required dependencies and and start the webapp.</p>
+<pre><code class="has-line-data" data-line-start="61" data-line-end="62" class="language-sh">
+npm install
+npm start
+</code></pre>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 class="code-line" data-line-start=16 data-line-end=17 ><a id="Tech_16"></a>Technology Involved</h2>
+<p class="has-line-data" data-line-start="18" data-line-end="19">This Dashboard uses following library and dependencies to work properly</p>
+<ul>
+<li class="has-line-data" data-line-start="21" data-line-end="22"><a href="https://reactjs.org/">React.js</a> - JavaScript library for building of UI components</li>
+<li class="has-line-data" data-line-start="23" data-line-end="24"><a href="https://www.npmjs.com/package/react-chartjs-2">Chart Js</a> - React components for Chart.js, the most popular charting library.</li>
+ <li class="has-line-data" data-line-start="23" data-line-end="24"><a href="https://www.npmjs.com/package/faker">Chart Js</a> - This is used to generate random data for the website. </li>
+</ul>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2 class="code-line" data-line-start=16 data-line-end=17 >APP Screens</h2>
+<p class="has-line-data" data-line-start="18" data-line-end="19">Design of the dashboard on a desktop</p>
+<div display='flex' flexDirection='row' justifycontent='space-between'>
+  <img src='https://i.imgur.com/acrm5BU.gif' title="A cute kitten" width="600" height="350">
+</div>

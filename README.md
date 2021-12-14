@@ -22,7 +22,7 @@ npm start
 <ul>
 <li class="has-line-data" data-line-start="21" data-line-end="22"><a href="https://reactjs.org/">React.js</a> - JavaScript library for building of UI components</li>
 <li class="has-line-data" data-line-start="23" data-line-end="24"><a href="https://www.npmjs.com/package/react-chartjs-2">Chart Js</a> - React components for Chart.js, the most popular charting library.</li>
- <li class="has-line-data" data-line-start="23" data-line-end="24"><a href="https://www.npmjs.com/package/faker">Chart Js</a> - This is used to generate random data for the website. </li>
+ <li class="has-line-data" data-line-start="23" data-line-end="24"><a href="https://www.npmjs.com/package/faker">Faker</a> - This is used to generate random data for the website. </li>
 </ul>
 
 <h2 class="code-line" data-line-start=16 data-line-end=17 >APP Screens</h2>
